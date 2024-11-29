@@ -1,0 +1,28 @@
+{
+  "name": "readme-file-generator",
+  "version": "1.0.0",
+  "description": "A command-line tool for generating a professional README file for a project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanyaH-create/Readme-File-Generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "cli",
+    "node.js"
+  ],
+  "author": "Tanya Hauck dougtanyah@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TanyaH-create/Readme-File-Generator/issues"
+  },
+  "homepage": "https://github.com/TanyaH-create/Readme-File-Generator#readme",
+  "dependencies": {
+    "inquirer": "^12.1.0"
+  }
+}
