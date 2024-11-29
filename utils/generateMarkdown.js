@@ -64,7 +64,7 @@ ${licenseBadge}
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#contribution)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Description
