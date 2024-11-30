@@ -22,15 +22,15 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
-      return `(https://opensource.org/licenses/MIT)`;
+      return `https://opensource.org/licenses/MIT`;
     case 'Apache 2.0':
-      return `(https://opensource.org/licenses/Apache-2.0)`;
+      return `https://opensource.org/licenses/Apache-2.0`;
     case 'GPLv3':
-      return `(https://www.gnu.org/licenses/gpl-3.0)`;
+      return `https://www.gnu.org/licenses/gpl-3.0`;
     case 'MPLv2.0':
-      return '(https://opensource.org/licenses/MPL-2.0)';
+      return 'https://opensource.org/licenses/MPL-2.0';
     case 'GNUv3':
-      return `(https://www.gnu.org/licenses/gpl-3.0)`;
+      return `https://www.gnu.org/licenses/gpl-3.0`;
     case `None`:
       return '';
   } 
@@ -43,10 +43,12 @@ function renderLicenseSection(license) {
     return '';
   }
   const licenseBadge = renderLicenseBadge(license);
-  const licneseLink = renderLicenseLink(license);
+  const licenseLink = renderLicenseLink(license);
   return `
 ## License
-This project is licensed under the ${license} license. A complete version of the ${license} license is available at ${license.link}.
+
+This project is licensed under the ${license} license. A complete version of the ${license} license is available at [${license}](${licenseLink}).
+
 Any contribution made to this project will be icense under the ${license}.
  `;
 }
@@ -60,12 +62,16 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ${licenseBadge} 
 
-## Table of COntents
+## Table of Contents
+
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 - [License](#license)
+
 
 ## Description
 ${data.description}
@@ -77,15 +83,17 @@ ${data.installation}
 ${data.usage}
 
 ## Contributing
-${data.contribution}
-
+${data.contributing}
 
 ## Tests
-${data.test}
+${data.tests}
 
-##Questions
-If you have any questions, feel free to contact me at ${data.email}./n
-You can also find me on GitHub at [${data.githubUsername}](${data.githubLink}/n
+## Questions  
+
+If you have any questions, feel free to contact me at ${data.email}.
+
+You can also find me on GitHub at ${data.githubUsername} ${data.githubLink}
+
 
 ${licenseSection}
 `;

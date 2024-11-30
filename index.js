@@ -12,27 +12,27 @@ const questions = [
         message: "What is your project title?",
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'description', 
         message: "Enter a short description of your project:",
     },
     {
-        type: 'input',
+        type: 'editor',
         name: 'installation', 
-        message: "Enter the installation steps, one per line."
+        message: "Enter the installation steps:"
     }, 
     {
-        type: 'input',
+        type: 'editor',
         name: 'usage', 
         message: "Enter usage information for your project:",
     }, 
     {
-        type: 'input',
+        type: 'editor',
         name: 'contributing', 
         message: "What are the contribution instructions for your project?",
     }, 
     {
-        type: 'input',
+        type: 'editor',
         name: 'tests', 
         message: "What are the test instructions for your project?",
     }, 
