@@ -3,18 +3,16 @@
 
 ## Table of COntents
 - [Description](#description)
-- [Walkthrough Video](#walkthroughvideo)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Walkthrough](#walkthrough)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Description
 The README Generator is a command-line application designed to help developers create a professional README.md file for their projects. It uses the 'Inquirer' package to dynamically generate a README based on user input.
 
-## Walkthrough Video
 
-https://drive.google.com/file/d/1HCRXeFDe4pAbOUVksy7iHu_ZFwOuzdwF/view?usp=sharing
 
 ## Installation
 1. Clone the repository
@@ -44,6 +42,18 @@ https://drive.google.com/file/d/1HCRXeFDe4pAbOUVksy7iHu_ZFwOuzdwF/view?usp=shari
    a text editor.  Saving and closing the editor completes the prompt.
 
 3. Once completed, the README.md file will be generated in the current directory.
+
+
+![Screenshot1stQuestionsAdj](https://github.com/user-attachments/assets/547b98e8-f5a6-4338-9849-13f5534ec6ae)    ![Screenshot2ndQuestion](https://github.com/user-attachments/assets/984209ff-5c1f-4bc6-aa27-2b9055210f86)
+
+
+![ScreenshotTextEditorAdj](https://github.com/user-attachments/assets/4cc03d03-675f-4ccd-a07f-0d266d203667)      ![ScreenshotLicenseAdj](https://github.com/user-attachments/assets/6e4693c7-5250-4453-bbbd-df8e8a83aacb)
+
+![ScreenshotCompleteAdj](https://github.com/user-attachments/assets/72626d14-4315-43c9-8b02-8184372291a0)
+
+## Walkthrough
+
+https://drive.google.com/file/d/1HCRXeFDe4pAbOUVksy7iHu_ZFwOuzdwF/view?usp=sharing
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
