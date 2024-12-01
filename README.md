@@ -49,7 +49,8 @@ The README Generator is a command-line application designed to help developers c
 
 ![ScreenshotTextEditorAdj](https://github.com/user-attachments/assets/4cc03d03-675f-4ccd-a07f-0d266d203667)      ![ScreenshotLicenseAdj](https://github.com/user-attachments/assets/6e4693c7-5250-4453-bbbd-df8e8a83aacb)
 
-![ScreenshotCompleteAdj](https://github.com/user-attachments/assets/72626d14-4315-43c9-8b02-8184372291a0)
+![ScreenshotCompleteAdj](https://github.com/user-attachments/assets/256637a5-7a56-42d9-bcef-2aad720d0691)
+
 
 ## Walkthrough
 
