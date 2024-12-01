@@ -22,9 +22,9 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
-      return `https://opensource.org/licenses/MIT`;
+      return 'https://opensource.org/licenses/MIT';
     case 'Apache 2.0':
-      return `https://opensource.org/licenses/Apache-2.0`;
+      return 'https://opensource.org/licenses/Apache-2.0';
     case 'GPLv3':
       return `https://www.gnu.org/licenses/gpl-3.0`;
     case 'MPLv2.0':
