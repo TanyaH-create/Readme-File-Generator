@@ -101,6 +101,6 @@ To test the application:
 
 
 ## License
-This project is licensed under the MIT license. A complete version of the MIT license is available at function link() { [native code] }.
+This project is licensed under the MIT license. A complete version of the MIT license is available at [MIT](https://opensource.org/licenses/MIT).
 Any contribution made to this project will be icense under the MIT.
  
