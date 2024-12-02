@@ -1,18 +1,34 @@
 # README File Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] 
 
-## Table of COntents
+## Table of Contents
 - [Description](#description)
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Walkthrough](#walkthrough)
 - [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 - [License](#license)
 
 ## Description
-The README Generator is a command-line application designed to help developers create a professional README.md file for their projects. It uses the 'Inquirer' package to dynamically generate a README based on user input.
+The README Generator is a command-line application designed to help developers create a professional README.md file for their projects.  It uses the 'Inquirer' package to dynamically generate a README based on user input.
 
+## Features
 
+- License badge at the top of the README
+- Table of contents with links for the following sections:
+
+    - Description
+    - Installation
+    - Usage
+    - Contributing
+    - Tests
+    - Questions
+    - License
+-  A link to the license information will be provided in the License secgtion
+-  contact information under questions section includes email, gitHub username and link to gitHub account
 
 ## Installation
 1. Clone the repository
@@ -39,7 +55,7 @@ The README Generator is a command-line application designed to help developers c
    node index.js 
 
 2. Answer the prompts to provide details about your project.  Some prompts that require multi-line answers use
-   a text editor.  Saving and closing the editor completes the prompt.
+   a text editor. Use markdown syntax when answering these secions in thetext editor. Saving and closing the editor completes the prompt.
 
 3. Once completed, the README.md file will be generated in the current directory.
 
