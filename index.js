@@ -50,7 +50,7 @@ const questions = [
     {
         type: 'input',
         name: 'githubLink', 
-        message: "Enter your gitHub profile link:",
+        message: "Enter your gitHub link:",
     },
     {
         type: 'input',

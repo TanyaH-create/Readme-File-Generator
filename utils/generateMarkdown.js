@@ -92,7 +92,7 @@ ${data.tests}
 
 If you have any questions, feel free to contact me at ${data.email}.
 
-You can also find me on GitHub at ${data.githubUsername} ${data.githubLink}
+You can also find me on GitHub at [${data.githubUsername}](${data.githubLink});
 
 
 ${licenseSection}
