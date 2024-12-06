@@ -96,7 +96,7 @@ To test the application:
 
  If you have any questions, feel free to contact me at dougtanyah@gmail.com.
 
- You can also find me on GitHub at TanyaH-create https://github.com/TanyaH-create
+ You can also find me on GitHub at [TanyaH-create](https://github.com/TanyaH-create).
 
 
 
